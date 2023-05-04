@@ -217,6 +217,7 @@
         position: absolute;
         bottom: 200px;
         padding-left: 800px;
+        padding-bottom: 200px;
         text-align: center;
     }
     .button5 button{
@@ -240,12 +241,39 @@
     }
     .left{
         padding-top: 20px;
+        padding-bottom: 30px;
         display: flex;
+        border-bottom: 1px solid black;
+    }
+    .left i{
+        padding-right: 10px;
     }
     .foss{
        padding-bottom: 20px;
        border-top: 1px solid black;
+       font-style: initial;
     }
     .top11{
        padding-top: 200px;
+       
+       font-style: oblique;
+       
+    }.social{
+        padding-left: 30px;
     }
+    .end{
+        padding-top: 30px;
+        background-color: rgb(244, 232, 221);
+    }
+    .ContactUs button{    
+        height: 50px;
+        width: 150px;
+        border-radius: 30px;
+        color: white;
+        background-color: black;
+    }
+    .end p{
+        padding-left: 250px;
+        text-align: justify;
+    }
+        
