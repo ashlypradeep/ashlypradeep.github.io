@@ -1,0 +1,496 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+
+body{
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 10px;
+        overflow-x: hidden;
+    }
+.leftsidebar{
+    width: 25%;
+}
+.leftsidebarbird img{
+   
+   font-size: 20px; 
+   border-radius: 30px;
+}
+
+.leftsidebar { 
+    border-right: 1px solid rgb(243, 246, 246);   
+    width: 250px;
+    padding-top: 23px;
+    padding-left: 150px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.leftsidebarActive{
+    align-items: center;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    font-size: x-large;
+    cursor: pointer;
+    margin-right: 20px;
+    
+}
+.leftsidebarActive1{
+    display: flex;
+
+}
+.leftsidebarActive2{
+    display: flex;
+}
+
+.leftsidebarActive3{
+    display: flex;
+}
+.leftsidebarActive4{
+    display: flex;
+}
+.leftsidebarActive5{
+    display: flex;
+
+}
+.leftsidebarActive6{
+    display: flex;
+}
+.leftsidebarActive7{
+    display: flex;
+}
+.leftsidebarActive8{
+    display: flex;
+}
+.leftsidebarActive img{
+    padding-top: 30px;
+}
+.leftsidebarActive i{
+    padding-top: 30px;
+    padding-right: 13px;
+}
+.tweetleft{
+    padding-top: 20px;
+}
+.leftsidebarActiveTweet{
+    width: 230px;
+    height: 40px;
+    background-color: #26bcf7;
+    border: none;
+    border-radius: 20px;
+    font-size: medium;
+    color: white;
+    font-weight: 80px;
+} 
+.leftsidebarActive h2{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.tweetleft button{
+    font-weight: bolder;
+    cursor: pointer;
+}
+.profile{
+    display: flex;
+    padding-top: 40px;
+    width: 280px;
+    align-items: center;
+}
+.profilepicture{
+    height: 20px;
+    width: 20px;
+}
+.midsection2{
+    border-bottom: 1px solid rgb(243, 246, 246);
+}
+
+.profilepicture img{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    background-color: antiquewhite;
+}
+.profilename{
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.file{
+    color: rgb(155, 153, 153);
+}
+.profileDetails{
+    padding-top: 35px;
+    padding-left: 20px;
+}
+.midsection{
+    padding-left: 20px;
+    cursor: pointer;
+    width: 37.5%;
+    border-right: 1px solid rgb(243, 246, 246); 
+}   
+.midsection1{
+    padding-top: 20px;
+    padding-bottom: 1px;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(243, 246, 246); 
+}
+.home{
+    padding-left: 20px;
+    
+}
+.foru{
+    padding-left: 100px;
+    padding-top: 20px;
+    font-size: small;
+    display: flex;
+}
+.butt{
+    height: 5px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.butt button{
+    height: 5px;
+    color:  #26bcf7;
+    background-color: #26bcf7;
+    border-color:  #26bcf7;
+}
+.follow
+{
+    padding-left: 230px;
+    font-size: small;
+}
+.lefttweet{
+    width: 300px;
+}
+.tweet_box .icons {
+    padding-bottom: 10px;
+    border-bottom: 8px;
+    padding-right: 10px;
+    display: flex;
+    
+}
+.tweet_box img 
+{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+}
+.what h2{
+    display: flex;
+    padding-top: 18px;
+    color: rgb(116, 109, 109);
+    padding-left: 10px;
+    font-size: larger;
+}
+
+.leftsidebarActiveTweet2{
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    background-color: #26bcf7;
+    color:white;
+    font-weight: 80px;
+    height: 40px;
+    font-size: medium;
+    padding-left: 5px;
+}
+.tweetbox_input{
+    display: flex;
+}
+.gif img{
+    height: 25px;
+    width: 25px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 50px;
+}
+.icons{
+    padding-top: 10px;
+    width: 275px;
+    height: 50px;
+    display: flex;
+    padding-left: 50px;}
+
+.icons i{
+    padding: 12px;
+}
+.tweet_box{
+    display: flex;
+    
+}
+.midsection3{
+    font-size: medium;
+    border-bottom: 1px solid rgb(243, 246, 246); 
+}
+.UpperDivision{
+    display: flex;
+    
+}
+.eco p{
+    padding-top: 12px;
+    font-weight: bolder;
+    padding-left: 12px;
+}
+.profileDetails2{
+    padding-left: 180px;
+    padding-top: 10px;
+}
+.logo img{
+    height: 40px;
+    width: 40px;
+    padding-top: 12px;
+}
+.verified{
+    width: 15px;
+}
+.verified img{
+    height: 20px;
+    width: 20px;
+    padding-bottom:150px ;
+    padding-top: 12px;
+    padding-left: 5px;
+ 
+}
+.TheEconomistApril{
+    padding-top: 12px;
+    padding-left: 12px;
+    color: grey;
+ 
+}
+.upper2{
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+}
+.news{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 25px;
+    height: 10px;
+    
+}
+.description{
+    padding-left: 14px;
+}
+.feedEconomist img{
+    width: 480px;
+    height: 300px;
+    border-radius: 38px;
+    border-radius: 25px;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    border-top-left-radius: 38px;
+    border-top-right-radius: 38px;
+    padding-left: 53px;
+}
+.feedEconomist{
+    height: 330px;
+    width: 250px;
+}
+.num1{
+    padding-left: 10px;
+}
+.num2{
+    padding-left: 10px;
+}
+.num3{
+    padding-left: 10px;
+}
+.num4{
+    padding-left: 10px;
+}
+.lowerfeed{
+    padding-left: 65px;
+    padding-bottom: 2px;
+    height: 70px;
+     
+}
+.econo{
+    color: grey;
+    font-size: medium;
+}
+.stable{
+    color: grey;
+    font-size: medium;
+}
+.many{
+    font-size: medium;
+}
+.lowericons{
+    padding-left: 40px;
+}
+.lowericons i{
+    padding-left: 50px;
+   
+}
+.LowerDivision{
+    display: flex;
+
+}
+.lowericons{
+    padding-top: 5px;
+    padding-bottom: px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    height: 2px;
+    border-right: 1px solid rgb(243, 246, 246); 
+    display: flex;
+}
+.reply{
+    display: flex;
+    
+}
+.retweet{
+    display: flex;
+}
+.like{
+    display: flex;
+}
+.view{
+     display: flex;
+}
+.share{
+    display: flex;
+}
+.widgets_input{
+    width: 310px;
+    height: 40px;
+    background-color: rgb(245, 249, 249);
+    border-radius: 25px;
+    padding-left: 40px;
+    padding-top: 10px;
+    display: flex;
+}
+.widgets{
+    padding-top: 9px;
+    padding-left: 30px;
+}
+.search{
+    padding-right: 20px;
+}
+.rightmiddle{
+    background-color: rgb(245, 249, 249);
+    width: 310px;
+    height: 565px;
+    border-radius: 25px;
+    padding-top: 12px;
+    padding-left: 25px;
+    margin: 35px;
+    margin-top: 15px;
+}
+.whats{
+    padding-bottom: 20px;
+}
+.nba{
+    display: flex;
+}
+.photo img{
+    width: 70px;
+    height: 60px;
+    background-color: #26bcf7;
+    border-width: 100px;
+    border-radius: 20px;
+}
+.photo{
+    width: 70px;
+    height: 60px;
+    padding-left: 80px;
+}
+.trending{
+    display: flex;
+    padding-top: 30px;
+}
+.trend{
+    padding-bottom: 20px;
+}
+.dot1{
+    padding-left: 30px;
+}
+.trendindia{
+    color: rgb(156, 155, 155);
+    padding-bottom: 5px;
+}
+.virat{
+    padding-bottom: 5px;
+}
+.king{
+    color: rgb(156, 155, 155);
+}
+.met{
+    padding-bottom: 5px;
+}
+.fashion{
+    display: flex;
+}
+.dot2 i{
+    padding-left: 84px;
+}
+.beauty{
+    color: rgb(156, 155, 155);
+    padding-bottom: 5px;
+}
+.Kar{
+    color: rgb(156, 155, 155);
+    padding-bottom: 20px;
+}
+.Mayers{
+    display: flex;
+}
+.may{
+    padding-bottom: 5px;
+}
+.sport{
+    color: rgb(156, 155, 155);
+    padding-bottom: 5px;
+}
+.tweet14{
+    color: rgb(156, 155, 155);
+    padding-bottom: 20px;
+}
+.dot3 i{
+    padding-left: 170px;
+}
+.nifty{
+    display: flex;
+}
+.nift{
+    color: rgb(156, 155, 155);
+    padding-bottom: 5px;
+}
+.dot4{
+    padding-left: 86px;
+}
+.sp{
+    padding-bottom: 5px;
+}
+.sgxn{
+    padding-bottom: 20px;
+}
+.SportsTrending{
+    display: flex;
+}
+.sp{
+    color: rgb(156, 155, 155);
+}
+.twee{
+    color: rgb(156, 155, 155);
+    padding-bottom: 20px;
+}
+.kl{
+    padding-bottom: 5px;
+}
+.dot5{
+    padding-left: 170px;
+}
+.show{
+    color: #26bcf7;
+}
+      
+
+    
